@@ -43,10 +43,7 @@ Currently, there are 3 parts to this project:
 
 ## Prerequisites
  - [Dotnet](https://dotnet.microsoft.com/download)
- - 
 
 ## Running the project
 
 1. Clone the project
-2. 
-
