@@ -1,0 +1,819 @@
+📈, Added new google analytics gtag
+📝, Documentation - Create the 8 important docs WIP
+✨, Improve Archived Rules view
+⚡, Allow CORS for history-feed.json
+💄, UI - Make logo text unselectable
+✨, add history.json endpoint
+🔧, Make json endpoints accessible
+✨, Add ssw colours + add h2 & h4
+✨, Add anchor tags to all h3s
+💄, Widget style update
+🐛, Have the MegaMenu content at 100% width
+📦, Updating the remaning packages
+📝, Update PR template
+🐛, Remove the extra /rules infront of the links
+🐛, Fix the all rules button linking to the url
+✨, Add All Rules page - add sorting 
+💄, widget style update
+🐛, Fix image stretching horizontally issue
+🐛, figures are now back in town
+🐛, Fix Figure + ul underlines
+🔧, Added GitHub Issues templates
+🐛, Fixed rule tooltips css
+✨, Display lightboxes on image clicks.
+🔥, #717 removed the p tag
+🐛, Fixed bookmark on category page
+🐛, Fixed Blank Profile screen
+💄, Add editing buttons to rules on category page
+💄, Add link to old rules
+💄, Add instructions to new rule default text
+🐛, Remove validation from redirect URI
+💄, Add New Rule button to header
+💄, Add social media icons to footer
+🔧,  Add rule to remove slash
+💄, Add breathing room for mobile screens
+🐛,  Fix broken relative images on Netlify CMS
+🐛,  Fix figure and image spacing
+📝,  Move and rename architecture diagram
+📦, Update packages
+💄, Add bullet points to categories
+🔧, Add mime mapping for yml
+💄, Add CSS and fix fenced blocks
+🔧, Fix 404 page with code 200
+💄, Update icon
+🔧, Change response mode
+🐛, Fix broken link
+✨, Add profile link
+💄, Update icon
+💄, Comment out broken link
+💄, Change icon positions
+👷, Add pwsh script to pipelines
+👷, Added pwsh script to cancel existing builds
+👷, Added pwsh script to cancel existing builds
+🐛, Fix acknowledgements image
+🐛, Fix images not showing up
+✨, Add remove rating feature
+💄, Change icon for no rules message
+💄, Fix spacing on view filter
+💄, Change "really agree" to "love"
+💄, Removed padding on rule titles
+💄, fix link styling
+💄, Make content fonts same weight
+💄, Fix greybox overflow
+💄, Switch font for more consistency
+💄, Fix overflowing code blocks
+✨, Add tagline
+💄, Add word break to rule content
+💄, Remove counter brackets
+🐛, Fix bookmark rules
+💄, Fix hover texts
+💄, Move dropdown avatar
+💄, Add styling to category intro links
+🐛, Fix default profile tab
+✏️, Fix typo
+💄, Add hover messages on reactions
+💄, Add bookmark tooltip
+🐛, Fix disappearing icons on hover
+✨, Add extra reactions
+✨, Add comments to rules
+🐛, Fix bookmark
+🐛, Add auth variables to template
+🐛, Fix 1% opacity on hover
+🐛, Fix reaction buttons position
+💄, Add dotted underline to links
+🐛, Fix login redirect
+👷, Fix publish build artifact
+⚡️, Change artifact upload file
+✨, Change to b2c authentication
+🐛, Fix login redirect
+🐛, Fix negative reaction counters
+🐛, Fix login redirect
+💄, Remove padding from feedback heading
+💄, Move like counter
+🐛, Fix environment variable
+📝, Add architecture diagram
+💄, Fix spacing
+🐛, Fix spacing issue
+💚, Fix Build Health Typo
+💚, Update Environment for Health check
+🐛, Fix bad function that snuck in
+💚, DevOps - Update build health check
+💚, Update Build Health and Production Deploy
+💚, Update to change the content branch in environments
+💚, Update with reusable workflows
+📝, Update documentation with suggestions
+💚, DevOps -Add GitHub Actions to Build and Deploy to Azure Storage
+👷, Add Bicep template
+⬆️, Bump focus-trap-react from 8.9.0 to 8.9.1
+⬆️, Bump next from 12.0.7 to 12.0.8
+⬆️, Bump next-sitemap from 1.6.261 to 1.8.4
+⬆️, Bump flow-bin from 0.168.0 to 0.169.0
+♿️, Add focus trap to the menu
+📄, Update `LICENSE`
+⬆️, Bump lint-staged from 12.1.4 to 12.1.5
+🔧, Update `dependabot` schedule config
+⬆️, Bump @babel/preset-flow from 7.16.5 to 7.16.7
+⬆️, Bump lint-staged from 12.1.3 to 12.1.4
+📝, Add more information on new emoji issue template
+⬆️, Bump lint-staged from 12.1.2 to 12.1.3
+⬆️, Bump flow-bin from 0.167.1 to 0.168.0
+♿, Remove links animation on `prefers-reduced-motion`
+⬆️, Bump flow-bin from 0.166.1 to 0.167.1
+⬆️, Bump @babel/preset-flow from 7.16.0 to 7.16.5
+⬆️, Bump jest from 27.4.4 to 27.4.5
+🍱, Modify project url and description
+⬆️, Bump jest from 27.4.3 to 27.4.4
+⬆️, Bump next from 12.0.4 to 12.0.7
+⬆️, Bump prettier from 2.5.0 to 2.5.1
+📝, Update contributing docs
+⬆️, Bump `next-pwa`
+⬆️, Bump flow-bin from 0.165.1 to 0.166.1
+⬆️, Bump jest from 27.4.2 to 27.4.3
+⬆️, Bump jest from 27.4.0 to 27.4.2
+🔖, Bump version
+⬆️, Bump jest from 27.3.1 to 27.4.0
+✨, Introduce "Improve developer experience" emoji
+🔖, Bump version
+🐛, Fix `bricks` name
+⬆️, Bump prettier from 2.4.1 to 2.5.0
+⬆️, Bump lint-staged from 12.1.1 to 12.1.2
+⬆️, Bump next-pwa from 5.4.0 to 5.4.1
+🔖, Bump version
+✨, Add brick 🧱
+📝, Update contributing docs
+⬆️, Bump flow-bin from 0.165.0 to 0.165.1
+⬆️, Bump lint-staged from 12.0.3 to 12.1.1
+⬆️, Bump lint-staged from 12.0.2 to 12.0.3
+⬆️, Bump flow-bin from 0.164.0 to 0.165.0
+⬆️, Bump next from 12.0.3 to 12.0.4
+⬆️, Bump lint-staged from 11.2.6 to 12.0.2
+⬆️, Bump flow-bin from 0.163.0 to 0.164.0
+⬆️, Bump next from 12.0.2 to 12.0.3
+⬆️, Bump next-sitemap from 1.6.199 to 1.6.203
+✨, Add input focus with keyboard
+⬆️, Bump next-sitemap from 1.6.192 to 1.6.199
+⬆️, Bump @babel/preset-flow from 7.14.5 to 7.16.0
+⬆️, Bump next from 12.0.1 to 12.0.2
+📝, Update contributing docs
+🔖, Bump version
+✨, Add Stethoscope
+⬆️, Bump flow-bin from 0.162.1 to 0.163.0
+⬆️, Bump lint-staged from 11.2.4 to 11.2.6
+⬆️, Bump next from 12.0.0 to 12.0.1
+⬆️, Bump Next.js to 12
+⬆️, Bump lint-staged from 11.2.3 to 11.2.4
+🔧, Update lock workflow cron
+⬆️, Bump next-sitemap from 1.6.189 to 1.6.192
+⬆️, Bump husky from 7.0.2 to 7.0.4
+⬆️, Bump jest from 27.3.0 to 27.3.1
+⬆️, Bump next-sitemap from 1.6.184 to 1.6.189
+⬆️, Bump flow-bin from 0.162.0 to 0.162.1
+⬆️, Bump jest from 27.2.5 to 27.3.0
+⬆️, Bump next-pwa from 5.3.2 to 5.4.0
+⬆️, Bump next-pwa from 5.3.1 to 5.3.2
+⬆️, Bump flow-bin from 0.161.0 to 0.162.0
+⬆️, Bump next-sitemap from 1.6.179 to 1.6.184
+⬆️, Bump jest from 27.2.4 to 27.2.5
+⬆️, Bump lint-staged from 11.2.0 to 11.2.3
+⬆️, Bump next-sitemap from 1.6.173 to 1.6.179
+⬆️, Bump lint-staged from 11.1.2 to 11.2.0
+⬆️, Bump next-sitemap from 1.6.168 to 1.6.173
+⬆️, Bump jest from 27.2.3 to 27.2.4
+⬆️, Bump flow-bin from 0.160.2 to 0.161.0
+⬆️, Bump jest from 27.2.2 to 27.2.3
+⬆️, Bump jest from 27.2.1 to 27.2.2
+⬆️, Bump flow-bin from 0.160.1 to 0.160.2
+⬆️, Bump jest from 27.2.0 to 27.2.1
+⬆️, Bump flow-bin from 0.160.0 to 0.160.1
+⬆️, Bump prettier from 2.4.0 to 2.4.1
+⬆️, Bump flow-bin from 0.159.0 to 0.160.0
+⬆️, Bump jest from 27.1.1 to 27.2.0
+⬆️, Bump prettier from 2.3.2 to 2.4.0
+⬆️, Bump jest from 27.1.0 to 27.1.1
+⬆️, Bump next-sitemap from 1.6.164 to 1.6.168
+⬆️, Bump flow-bin from 0.158.0 to 0.159.0
+⬆️, Bump next from 11.1.1 to 11.1.2
+⬆️, Bump next from 11.1.0 to 11.1.1
+⬆️, Bump jest from 27.0.6 to 27.1.0
+⬆️, Bump husky from 7.0.1 to 7.0.2
+⬆️, Bump next-sitemap from 1.6.162 to 1.6.164
+⬆️, Bump next-sitemap from 1.6.157 to 1.6.162
+⬆️, Bump flow-bin from 0.157.0 to 0.158.0
+⬆️, Bump next-pwa from 5.2.24 to 5.3.1
+⬆️, Bump next-sitemap from 1.6.148 to 1.6.157
+⬆️, Bump next from 11.0.1 to 11.1.0
+⬆️, Bump lint-staged from 11.1.1 to 11.1.2
+⬆️, Bump flow-bin from 0.156.0 to 0.157.0
+⬆️, Bump next-sitemap from 1.6.140 to 1.6.148
+✨, Add 👔 emoji
+✨, Introduce gitmoji PWA with `next-pwa`
+✨, Fetch Contributors using `getStaticProps`
+✨, Add a new tool in related tools page
+⬆️, Bump lint-staged from 11.1.0 to 11.1.1
+⬆️, Bump lint-staged from 11.0.1 to 11.1.0
+⬆️, Bump flow-bin from 0.155.1 to 0.156.0
+⬆️, Bump flow-bin from 0.155.0 to 0.155.1
+⬆️, Bump next-sitemap from 1.6.133 to 1.6.140
+⬆️, Bump lint-staged from 11.0.0 to 11.0.1
+⬆️, Bump flow-bin from 0.154.0 to 0.155.0
+⬆️, Bump husky from 7.0.0 to 7.0.1
+⬆️, Bump husky from 6.0.0 to 7.0.0
+⬆️, Bump next-sitemap from 1.6.124 to 1.6.133
+⬆️, Bump jest from 27.0.5 to 27.0.6
+⬆️, Bump prettier from 2.3.1 to 2.3.2
+⬆️, Bump flow-bin from 0.153.0 to 0.154.0
+⬆️, Bump next-sitemap from 1.6.121 to 1.6.124
+⬆️, Bump next from 11.0.0 to 11.0.1
+⬆️, Bump jest from 27.0.4 to 27.0.5
+⬆️, Bump next-sitemap from 1.6.116 to 1.6.121
+⬆️, Bump Next.js to 11
+⬆️, Bump next-sitemap from 1.6.111 to 1.6.116
+⬆️, Bump flow-bin from 0.152.0 to 0.153.0
+⬆️, Bump next-sitemap from 1.6.108 to 1.6.111
+✨, Add 🧪 emoji for TDD
+⬆️, Bump next-sitemap from 1.6.105 to 1.6.108
+⬆️, Bump @babel/preset-flow from 7.13.13 to 7.14.5
+⬆️, Bump next-sitemap from 1.6.102 to 1.6.105
+⬆️, Bump prettier from 2.3.0 to 2.3.1
+⬆️, Bump jest from 27.0.3 to 27.0.4
+⬆️, Bump next-sitemap from 1.6.99 to 1.6.102
+⬆️, Bump next-sitemap from 1.6.95 to 1.6.99
+⬆️, Bump jest from 27.0.1 to 27.0.3
+🔖, Bump 
+⬆️, Bump jest from 26.6.3 to 27.0.1
+⬆️, Bump next-sitemap from 1.6.91 to 1.6.95
+⬆️, Bump flow-bin from 0.151.0 to 0.152.0
+⬆️, Bump next-sitemap from 1.6.57 to 1.6.91
+⬆️, Bump next from 10.2.2 to 10.2.3
+⬆️, Bump next from 10.2.0 to 10.2.2
+⬆️, Bump lodash from 4.17.19 to 4.17.21
+⬆️, Bump flow-bin from 0.150.1 to 0.151.0
+⬆️, Bump prettier from 2.2.1 to 2.3.0
+⬆️, Bump next-sitemap from 1.6.49 to 1.6.57
+⬆️, Bump lint-staged from 10.5.4 to 11.0.0
+⬆️, Bump next-sitemap from 1.6.42 to 1.6.49
+⬆️, Bump flow-bin from 0.150.0 to 0.150.1
+⬆️, Bump next-sitemap from 1.6.34 to 1.6.42
+⬆️, Bump next-sitemap from 1.6.29 to 1.6.34
+⬆️, Bump next-sitemap from 1.6.25 to 1.6.29
+⬆️, Bump flow-bin from 0.149.0 to 0.150.0
+⬆️, Bump next from 10.1.3 to 10.2.0
+🔧, Automate npm publish
+⬆️, Bump flow-bin from 0.148.0 to 0.149.0
+⬆️, Bump next-sitemap from 1.6.20 to 1.6.25
+🐛, Render unicode gitmojis as image by default
+⬆️, Bump next-sitemap from 1.6.18 to 1.6.20
+⬆️, Bump next from 10.1.2 to 10.1.3
+⬆️, Bump flow-bin from 0.147.0 to 0.148.0
+⬆️, Bump next from 10.1.1 to 10.1.2
+⬆️, Bump next from 10.0.9 to 10.1.1
+⬆️, Bump husky from 5.2.0 to 6.0.0
+⬆️, Bump next-sitemap from 1.6.9 to 1.6.18
+⬆️, Bump @babel/preset-flow from 7.12.13 to 7.13.13
+⬆️, Bump next-sitemap from 1.6.3 to 1.6.9
+⬆️, Bump react from 17.0.1 to 17.0.2
+⬆️, Bump husky from 5.1.3 to 5.2.0
+⬆️, Bump flow-bin from 0.146.0 to 0.147.0
+⬆️, Bump next-sitemap from 1.5.18 to 1.6.3
+⬆️, Bump next-sitemap from 1.5.16 to 1.5.18
+⬆️, Bump next from 10.0.8 to 10.0.9
+⬆️, Bump clipboard from 2.0.7 to 2.0.8
+⬆️, Bump next-sitemap from 1.5.10 to 1.5.16
+⬆️, Bump clipboard from 2.0.6 to 2.0.7
+⬆️, Bump Next.js to 10.0.8
+🔧, Migrate to Husky v5
+⬆️, Bump flow-bin from 0.145.0 to 0.146.0
+⬆️, Bump husky from 5.1.2 to 5.1.3
+⬆️, Bump next-sitemap from 1.5.8 to 1.5.10
+⬆️, Bump husky from 5.1.1 to 5.1.2
+✨, Introduce Gitmoji API
+✨, Added remove dead code emoji (⚰️)
+⬆️, Bump husky from 5.1.0 to 5.1.1
+⬆️, Bump next-sitemap from 1.5.6 to 1.5.8
+⬆️, Bump husky from 5.0.9 to 5.1.0
+⬆️, Bump flow-bin from 0.144.0 to 0.145.0
+⬆️, Bump next from 10.0.6 to 10.0.7
+⬆️, Bump next-sitemap from 1.5.2 to 1.5.6
+⬆️, Bump next-sitemap from 1.4.19 to 1.5.2
+⬆️, Bump husky from 4.3.8 to 5.0.9
+⬆️, Bump next-sitemap from 1.4.17 to 1.4.19
+⬆️, Bump lint-staged from 10.5.3 to 10.5.4
+⬆️, Bump flow-bin from 0.143.1 to 0.144.0
+✨, Add `semver` property to the gitmojis
+⬆️, Bump @babel/preset-flow from 7.12.1 to 7.12.13
+⬆️, Bump next-sitemap from 1.4.15 to 1.4.17
+⬆️, Bump next from 10.0.5 to 10.0.6
+⬆️, Bump next-sitemap from 1.4.13 to 1.4.15
+⬆️, Bump next-sitemap from 1.4.5 to 1.4.13
+⬆️, Bump flow-bin from 0.143.0 to 0.143.1
+⬆️, Bump flow-bin from 0.142.0 to 0.143.0
+📝, Add issue templates
+✨, Persist list mode status in localStorage
+⬆️, Bump husky from 4.3.7 to 4.3.8
+🎨, Remove gitmoji-${name} className
+🩹, Fix missing animations
+⬆️, Bump next-sitemap from 1.4.3 to 1.4.5
+⬆️, Bump next-sitemap from 1.3.32 to 1.4.3
+⬆️, Bump next-sitemap from 1.3.29 to 1.3.32
+⬆️, Bump next from 10.0.4 to 10.0.5
+✨, Prefill gitmoji search from query
+⬆️, Bump flow-bin from 0.141.0 to 0.142.0
+⬆️, Bump husky from 4.3.6 to 4.3.7
+📝, Add reminder to create an issue before opening a PR
+📝, Add steps for testing and snapshots update
+⬆️, Bump next-sitemap from 1.3.24 to 1.3.29
+⬆️, Bump next-sitemap from 1.3.22 to 1.3.24
+🔧, Fix author package.json field
+⬆️, Bump next from 10.0.3 to 10.0.4
+⬆️, Bump next-sitemap from 1.3.20 to 1.3.22
+⬆️, Bump next-sitemap from 1.3.16 to 1.3.20
+⬆️, Bump flow-bin from 0.140.0 to 0.141.0
+🐛, Fix dark theme gitmojiCode color
+♿️, Make buttons `button` elements for a11y
+♿, Improve Toolbar a11y
+⬆️, Bump husky from 4.3.5 to 4.3.6
+💄, Adjust search input dark mode styles
+✨, Introduce GitmojiList view selector
+⬆️, Bump ini from 1.3.5 to 1.3.8
+💄, Improve dark-mode ad theme
+⬆️, Bump version to 3.1.1
+🔧, Generate sitemap dynamically on build
+♻️, Replace website url with gitmoji.dev
+✨, Add related-tools page
+✨, Data exploration/inspection gitmoji
+⬆️, Bump flow-bin from 0.139.0 to 0.140.0
+✨, Allow searching by gitmoji description
+⬆️, Bump flow-bin from 0.138.0 to 0.139.0
+⬆️, Bump husky from 4.3.0 to 4.3.5
+⬆️, Bump lint-staged from 10.5.2 to 10.5.3
+🔧, Update lock workflow inactive days
+✨, Add gitmoji search
+🔧, Introduce github/lock action flow
+⬆️, Bump prettier from 2.2.0 to 2.2.1
+❤️, Introduce CarbonAds
+⬆️, Bump lint-staged from 10.5.1 to 10.5.2
+⬆️, Bump next from 10.0.2 to 10.0.3
+⬆️, Bump prettier from 2.1.2 to 2.2.0
+💄, Add dark-mode theme
+♻️,  Move styles to css-modules
+⬆️, Bump next from 10.0.1 to 10.0.2
+✨, Add emoji simple fix
+⬆️, Bump flow-bin from 0.137.0 to 0.138.0
+📝, Add the gitmoji browser extension in the list "related tools" (#488)
+🔧, Deploy to Vercel
+⬆️, Bump version to 2.0.0
+A,dd 🔨 gitmoji
+R,emove platform specific gitmojis
+📝, Add lalalilo/gitmemoji to related projects
+💬, Update 🔧 description
+💬, Reword :tada: to "Begining a project"
+📝, Update Travis-CI bad
+🔥, Remove :ok_hand: gitmoji
+🐛, Add chart_with_upwards_trend's entity
+📝, Removing GitHub from badge project specification
+💬, Clarify :bulb: description as for alterations on comments
+💬, Specify some descriptions using 'Adding' word
+🐛, Add pencil2's color
+⬆️, Bump version
+🔧, Update homepage, repository and bugs fields on package.json
+📝, Update dependency readme link
+📝, Fix related tools markdown formatting
+⬆️, Bump version
+✨, Publish gitmojis as an npm package
+📝, Add a section about gitmoji-changelog
+📝, Add badge to the readme
+📝, fix pencil2 name typo
+💬, Add "or updating" to some emojis
+🐛, New alert message is placed in front of the old one
+✨, Copy Gitmoji if click on the code and copy emoji if click on it
+✨, Add 🗑 for deprecating code
+✨, Add 🥅 emoji
+✨, Bring back copy to clipboard
+✨, Add animation 💫
+🐛, Bring back old colors
+📝, Update build status badge
+🐛, Bring Header buttons back
+♻️, Move website to Next.js
+🔧, Add github to funding file
+🎨, Add entity field to JSON Schema
+✨, Add 🚩 for changes to feature flags
+🐛, Fix poop color
+💄, Add seedling color
+✨, Add :seedling: icon for adding/updating seed files
+📝, Fix typo in contribution doc
+🎨, Consistent indentation of gitmojis
+❤️, Add sponsor button
+✨, Bitbucket compatibility
+🐛, Update NotoColorEmoji font
+📝, Adding entity's explanation in contributing guideline
+💬, Change text of test emoji
+✏️, Fix 🏷️ description typo
+✨, Add 🏷️
+🔧, Update travis deploy
+📝, Update CONTRIBUTING file
+🐛, Fix pdf cheatsheet generation
+✨, Add ☸️
+🐛, Move image into static folder
+🎨, Fix formatting in gitmojis.json
+✨, Add 🔍 
+🐛, Fix twitter:image metadata tag
+💄, Change :heavy_minus_sign: position 
+✨, Add ⚗
+💄, Update cards shadow 
+💄, Update colors
+✨, Add 📸
+🔧, Fix .travis deployments
+💄, Update colors
+✨, Add 🙈
+✨, Automate deployments
+⬆️, Update dependencies
+💄, Update colors
+✨, Add 📌
+📝, Update README
+📝, Update README
+✨, Add 🚸
+💄, Styles enhancements and fixes
+🔧, Add deploy as npm script
+✨, Add 👥
+💄, Update gitmoji colors
+✨, Add 🔇 & 🔊
+💄, Add colors for new gitmojis
+✨, Add 💬
+✨, Add 🍻
+✨, Add :bulb:
+🐛, Update flexboxgrid
+🔥, Update contributors page
+🎨, Remove greenkeeper from contributors
+🐛, Import clipboard only when needed
+💄, Update contributors page UI
+🎨, Update contributors
+📝, Fix ♿ description typo
+✨, Add ♿
+📝, Update Contributing
+✨, add 👌 for code review changes
+📝, Update refactoring gitmoji descriptio
+🔧, Update contributors
+💄, Add boom gitmoji styles
+✨, Add emoji for breaking changes
+⬆️, Update babel-core to 6.22.1
+🔧, Update .travis.yml
+🔧, Update yarn.lock & package.json
+✨, Add new gitmoji
+🔧, Update package.json
+⬆️, update gulp-sass to 3.1.0
+🎨, Update contributors
+✨, add :bento: for assets management
+🎨, Update contributors
+⚡️, improve performance of card hover effect
+⬆️, Update gulp-sass to 3.0.0
+💄, Update contributors add missing colors
+✨, Add 📄 icon
+📝, Add a section of gitmoji-cli in about
+💄, Add gitmoji colors
+✨, Add ⏪
+✨, Add 🔀 icon for merging
+✨, Add 🚚  json and style updates
+🔧, Add jsonlint as devDependency
+💄, Add alien color
+💄, Update gitmoji description style
+✨, Add 👽
+🎨, Fix indentation at gitmojis.json
+💄, Add package colors, update contributors
+✨, Added :package: for compiled files
+🔧, Update yarn.lock
+✨, PDF cheatsheet
+🐛, Fix emoji-code overflow
+🎨, Add hankey colors, update contributors.
+📝, Fix readme typo
+📝, Adding a period to every description
+📝, Add gitmoji-cli
+💄, Update emojis order, add mising colors
+✨, Add contributors page 
+✨,Added typo emoji
+✨, Added 📈 for analytics and tracking commits
+📝, Fixed typos
+💄, Update styles
+⚡️, Minify notification.js
+✨, Add notification when clicking on a gitmoji
+🔧, templates depend on styles; serve depends on both being done
+✨, Add 🚑
+⚡️,  Add yarn.lock file to speed up dependencies installation with Yarn
+✨, Add 🐳 emoji for Docker concerned things
+🐛, Fix script inline
+💄, Add lipstick color
+💄, Update gitmoji pointer
+✨, Add copy to clipboard functionality
+💄, Update hammer
+✨, Add 💄
+🐛, Use explict emoij fonts
+💅, Update styles
+📝, Update contributing docs
+💅, Add hammer and wrench color
+✨, Add 🛠
+📝, Update README
+🔧, Update gulp test task
+🔥, Remove .babelrc
+🐛, Fix twitter button
+🐛, Fix twitter button
+📝, Update readme
+🐛, Fix visual bugs
+📝, Update readme
+🎨, Update styles and templates
+📝, Update docs
+🐛, Fix script include
+🎨, Update main.js
+🎨, Update gitmoji.svg
+🎨, Update styles
+🎨, Include scripts from external file
+🎨, Include scripts from external file
+✨, Add main.js
+📝, Update README
+📝, Update README
+🎨, Update flexbox partial
+📝, Update README
+🚧, Update _meta
+🚧, Update about template
+🚧, Update index template
+🚧, Add template include
+🎨, Update fonts
+🎨, Update gitmojis order, set colors, add favicon
+🎨, 📝 Update gitmojis structure and contributing docs
+🚧, Update templates and styles
+📝, Update contributing docs
+🎨, Update templates and styles
+🐛, Update styles
+✨, Add header logo switching emojis
+🎨, Update styles, templates and refactor code
+📝, Update contributing docs
+✅, Add more tests
+🚧, Add gitmoji gif update about page
+🔧, Update gulpfile
+🚧, Update templates
+✨, Styles add gitmoji gif
+🚧, Add menu update styles and templates
+🚧, Add about page and update styles
+🚧, Update templates and styles
+💚, Update .travis
+🔧, Update environment and config files
+🚧, Building the site
+💚, Update .travis.yml
+✅, Add CI and tests
+🔧, Add source files
+✨, Update emojis.json
+✨, Add more emojis
+✨, Update .gitignore add gitmojis.json
+🎉, Initial commit
+🎉, Init commit
+✨, Base CTF command file
+♻️, Rework loading system
+♻️, Update some comments and var names and stuff
+⬇️, Downgrade axios due to typing errors
+♻️, Fix cache system
+♻️, Refactor disconnecting system
+✨, Create cache system
+🗃️, Lower connection timeout
+🔊, Add logging when database disconnects
+✨, Axios handler file
+➕, Add axios for API requests
+🏷️, Update typings to get autocompletion
+✨, Add command error logging to database
+♻️, Refactor mongoose models
+🗃️, Add deletion of config when guild is removed
+🔊, Add logging for config creation
+🔊, Update logging to use correct names for shutdown signals
+🗃️, Update mongoose config
+🏷️, Update typing for getMessage
+🐛, Fix uppercase in commands
+✨, Add subcommand help
+♻️, Move some code around
+🎨, Formatting
+🏷️, Redo all typing
+⬆️, Update dependencies
+💄, Add color to help pages
+💬, Add description to main help menu
+✨, Help menu: Display command aliases
+🏷️, Remove undefined array from command arguments tying
+🎨, Formatting, add type
+✨, Add ability to use aliases for commands
+👷, Update docker script
+➕, Update dependencies
+💥, Rework how the help pages work
+♻️, Rename default help page
+🏷️, Update arguments to match type spec
+🏷️, Prepare typings for arguments
+🗑️, Deprecate argument checker in messages
+🎨, Formatting
+🏷️, Prepare typings for subcommands
+🔊, Change debug log colors to gray
+🔇, Remove file logging
+🐛, Fix the help command
+🥅, Throw on error instead of warn about it
+💡, Turn //? comments into // comments
+🔨, Create inspect script
+✨, Add a help command
+✨, Add loading of help pages
+🏷️, Update typings to match new client types
+🎨, Formatting
+🏷️, Update typings for command groups
+💡, Add comments to everything
+🎉, Create initial file
+✏️, Move to the gitmoji standard for commit messages
+🔧, Give the process more time to close (docker)
+✨, Better handling for process close signals
+🔧, Add *.env to .dockerignore so env files don't get built
+♻️, Move ping command into utility file
+✨, Add command to get server config
+✨, Add better check for missing arguments, better usage message
+✨, Add words command
+✨, Add reverse command
+✨, Add checks to make sure required file is actually a command
+✨, Add base64 encode and decode commands
+♻️, Turn the command fetching into it's own function
+✨, Add rot13 command
+✨, Return when command is missing name
+♻️, Update how multiple commands in one file works
+🔧, Add docker scripts to package.json
+✨, Merge winston logging into master branch
+✨, Implement loggers everywhere
+✨, Create loggers
+♻️, Change h3 top title to be an h1 instead
+🔧, Disable duplicate eslint rule
+✨, Add utility functions to incoming message handler
+♻️, Move some code around to make it more readable
+♻️, Change the way multiple commands in one file are handled
+✨, Additional type checking and fix comments
+♻️, Rewrite in typescript
+♻️, Move to typescript
+♻️, Move to .eslint.json
+♻️, Move mongoose sets
+✨, Create database models
+✨, Add MongoDB connection using mongoose
+♻️, Move message event to own file and folder
+✨, Add ping command
+✨, Add ability to dynamically load commands from any file
+✨, Add basic ping command
+🔧, Update eslint config
+✨, Add ability to run the bot through docker
+✨, Add base discord.js script
+♻️, Move index file to src folder
+🔧, Add missing dependencies
+🔧, Add *.env to make sure no .env files get leaked
+🔧, `Add .eslintrc.js` file
+➕, Add dependencies and devDependencies
+🎉, Initial commit
+➖, Remove coffeeScript
+♻️, Refactor for style and html tag
+🔥, add coffeScript support
+🔥, Add new coffeeScript support
+💥, Add new CI Python build and run
+📝, Update README.md
+👷, Update build-jekyll.yml
+🚑️, fix for blog domain
+🎨, remove react js and back to static site
+⚡️, add performance for react js homepage and ui UX
+⚡️, Improve code structure for performance
+🎨, new for deploy
+🎨, move app to subdomain
+🚀, fixed deploy
+💄, improve UI and UX with CSS
+🐛, fix bug in navbar
+🐛, Improve bug in layout navbar
+🐛, fix bug in homescreen react js
+🚀, Dploy with some improve
+🌱, Fix for folder structures and react js bug
+🩹, Change dev to production
+🎨, Add new build format and stuff
+♻️, Fix for style and reponsive design
+🐛, Fix for bug on search result
+🚀, New for Deploy
+🚸, Make new UX for UI and some semantic code
+🚚, Change jsx format to js
+🌱, Just add dev files
+💥, Fix development environment
+📝, Add new post
+🎨, Add compress layout for postingan.json
+🐛 fix bug - remove error in script
+📝, update README.md - add a screenshot of project
+📝, update REAME.md after implement Vercel for continuous integration
+🎉, First commit
+♻️, clean unused values in theme.scss
+🐛, fix theme
+💄, fix link hover color
+♻️, refactor style to reflect merge maps
+⬆️, upgrade richie to v2.11.0
+💄, search bar improvements
+💄, category glimpse issues (#11)
+💄, default link color (#9)
+🔖, bump to version 1.2.0
+📝, upgrade changelog before release
+💄, correct the cover color
+💚, fix check configuration
+⬆️, upgrade frontend js libraries
+💚, fix circleci builds
+♻️, add extras to styles
+💚, fix circleci builds
+🚨, fix ci bash script lint
+🔖, bump to version 1.1.0
+⬆️, upgrade richie to v2.9.1
+💄, fix header styles and hero background
+🔖, bump to version 1.0.2
+🌐, revert change default language to pt
+🔖, bump to version 1.0.1
+🐛, fix richie upgrade
+💚, change circleci config for nau
+💚, copy funmooc circleci conf
+🔖, bump to version 1.0.0
+📝, fix readme
+🍱, add nau icons
+🌐, change default language to pt
+⬆️, upgrade richie to 2.9.0
+💄, new styles for nau hero
+💄, fix header menu render issues
+💄, fix blue underline on main menu
+🎨, change newsletter link to be relative
+➖, remove jquery JS
+💄, remove contact us button
+💚, jenkins build jobs to build node
+🌐, localize footer
+🚨, run linters
+🩹, change footer social network links
+🔖, bump to version 0.3.1
+⬆️, fix richie frontend upgrade
+🔖, bump to version 0.3.0
+⬆️, upgrade richie frontend
+💄, change page header colors
+🔖, release nau-0.2.0
+💄, add max-height to entity logos
+💄, replace fonts for NAU alternatives
+💄, add NAU colors to the palette
+💄, simplify footer styles
+🔍️, robots.txt delived by richie
+💄, add footer overrides
+✨, add jira service desk support widget
+📈, add cookie message
+📈, add settings for web analytics
+🔨, remove cache during development
+🩹, fix metadata name
+💄, add template to override style
+⬆️, Upgrade richie GN-622
+🌐, fix translation
+🔧, add course run sync config
+💚, stop build containers
+💚, use nginx official docker image
+⬆️, upgrade nginx to 1.20.1
+🛂, delegate authentication to open edX LMS
+🛂, delegate authentication to open edX LMS
+🐛, add pt lang to search
+🛂, delegate authentication to open edX LMS
+🩹, change order of the LMS menu
+🌐, translate lms menu options to pt-pt
+🐛, install wait-for-it tool
+🔖, release 0.1.0 version
+🐛, fix and simplify AWS S3 storage
+🐛, prints stack trace if code blocks
+🐛, allow change of media url
+🐛, fix html editor
+🐛, fix default static storage
+💚, build nginx docker image
+⬆️, upgrade nginx
+🔊, increase logging
+🐛, use on-premisses Ceph for S3
+👷, jenkins pipeline
+🐛, fix richie version
+🎉, configure linters
+🐛, fix richie version
+🔍, add robots.txt with sitemap
+🎉, first commit
+🎉, first commit
+🎉, first project
+💄, fix button style
+💄, fix styles
+💄, fix styling
+💄, fix UI
+💄, fix UX
+💄, UI changes
+💄, UX changes
+💄, User experience
+💄, User interface
+🚧, wip
+🚧, work in progress
+🚧, work in progress - add feature
+🚨, fix linting
+🚨, fix warnings
+🚨, linter
+🚨, lint
+🚨, compiler
+📌, pin dependencies
+📌, pin dependency
+🌐, Add internationalization features
+📱, Make home page responsive
+📱, Add responsivness features
+📱, Mobile
+🛂, authentication
+🛂, authorisation
+🛂, authorization
+🛂, add login
+🛂, implement login 
+🛂, fix login
+🛂, fix authentication
+🛂, add authentication
