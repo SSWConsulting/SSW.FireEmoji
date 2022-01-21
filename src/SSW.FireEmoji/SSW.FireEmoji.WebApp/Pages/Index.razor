@@ -1,10 +1,23 @@
 ﻿@page "/"
 @using SSW.FireEmoji.WebApp.Classes
+@using SSW.FireEmoji.WebApp.Shared
+@using SSW.FireEmoji.Core.MachineLearning
+@using SSW.FireEmoji.Core.Models
+
+@inject HttpClient httpClient
 
 <PageTitle>FireEmoji</PageTitle>
 
 <div class="row justify-content-md-center">
     <h1 class="col-sm-10 m-2">FireEmoji</h1>
+
+    @if (!string.IsNullOrEmpty(emojiPrediction))
+    {
+        <div class="w-100"></div>
+        <div class="col-sm-4">
+            <p class="justify-content-center" Style="font-size: 69px;">@emojiPrediction</p>
+        </div>        
+    }
     <div class="w-100"></div>
     <div class="col-6">
         <Input Placeholder="Your commit message here!"
@@ -22,6 +35,17 @@
 
 @code {
     private string commitMessage = string.Empty;
+    private GitmoPredictor predictor = new GitmoPredictor();
+    string emojiPrediction = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var modelStream = await httpClient.GetStreamAsync("gitmo.mlnet");
+        predictor.LoadFromStream(modelStream);
+
+        await base.OnInitializedAsync();
+    }
+
     private IList<Emoji> emojiList = new List<Emoji>
     {
         new Emoji
@@ -47,7 +71,11 @@
         if (string.IsNullOrEmpty(commitMessage))
             return;
 
-        Console.WriteLine(commitMessage);
+        var prediction = predictor.Predict(new GitComment { Comment = userInput });
+
+        emojiPrediction = prediction.Emoji;
+
+        Console.WriteLine(prediction.Emoji + " " + commitMessage);
         //TODO: Get emojis
     }
 }
