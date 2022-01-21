@@ -1,50 +1,9 @@
 ﻿@page "/"
-@using SSW.FireEmoji.WebApp.Classes
 
-<PageTitle>FireEmoji</PageTitle>
+<PageTitle>Index</PageTitle>
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
-<br />
 
-    <div>
-        <Input Placeholder="Your commit message here!"
-                Size="@InputSize.Large"
-                Value="@commitMessage"
-                ValueChanged="@((string s) => FetchGitmoji(s))"/>
-    </div>
-
-   @commitMessage
-
-   @foreach (var item in emojiList)
-   {
-       <EmojiCard Emoji="@item" />
-   }
-
-@code {
-    private string commitMessage = string.Empty;
-    private IList<Emoji> emojiList = new List<Emoji>
-    {
-        new Emoji
-        {
-            EmojiCharacter = "✨",
-            EmojiName = "sparkles"
-        },
-        new Emoji
-        {
-            EmojiCharacter = "🔥",
-            EmojiName = "fire"
-        }
-    };
-
-    private void FetchGitmoji(string userInput)
-    {
-        commitMessage = userInput;
-        if (string.IsNullOrEmpty(commitMessage))
-            return;
-
-        Console.WriteLine(commitMessage);
-        //TODO: Get emojis
-    }
-}
+<SurveyPrompt Title="How is Blazor working for you?" />
