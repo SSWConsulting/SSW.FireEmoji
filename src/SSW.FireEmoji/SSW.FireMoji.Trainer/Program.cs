@@ -1,9 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Microsoft.ML;
+﻿using Microsoft.ML;
 using SSW.FireEmoji.Core.MachineLearning;
 using SSW.FireEmoji.Core.Models;
-
-Console.WriteLine("Hello, World!");
 
 string modelName = "gitmo.mlnet";
 

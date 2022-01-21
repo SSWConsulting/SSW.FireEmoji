@@ -1,11 +1,13 @@
 ﻿@using SSW.FireEmoji.WebApp.Classes
 <Card class="col-4 m-2 text-center" Title=@($":{Emoji.Name}:") Style="font-size: 69px; width: 500px">
     <Body>
-        @Emoji.Character
+    @Emoji.Character
     </Body>
 </Card>
 
 @code {
+
     [Parameter]
     public Emoji Emoji { get; set; }
+
 }

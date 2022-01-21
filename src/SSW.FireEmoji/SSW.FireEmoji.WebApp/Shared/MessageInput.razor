@@ -1,0 +1,45 @@
+@using SSW.FireEmoji.WebApp.Classes
+@using Append.Blazor.Clipboard
+
+@inject IClipboardService _clipboardService
+@inject MessageService _message
+
+
+<div class="col-6">
+    <Input Placeholder="Your commit message here!"
+           Size="@InputSize.Large"
+           Value="@CommitMessage"
+           ValueChanged="@CommitMessageChanged">
+        <Prefix>
+            @EmojiPrediction?.Character
+        </Prefix>
+        <Suffix>
+            <Button OnClick="CopyCommitMessage" Icon="copy"/>
+        </Suffix>
+    </Input>
+</div>
+
+@code {
+
+    [Parameter]
+    public string? CommitMessage { get; set; }
+
+    [Parameter]
+    public Emoji? EmojiPrediction { get; set; }
+
+    [Parameter]
+    public EventCallback<string> CommitMessageChanged { get; set; }
+
+    private string FullCommitMessage => $"{EmojiPrediction?.Character} {CommitMessage}";
+
+
+    private async Task CopyCommitMessage()
+    {
+        await _clipboardService.CopyTextToClipboardAsync(FullCommitMessage);
+        await CopySuccess();
+    }
+
+    private async Task CopySuccess() =>
+        await _message.Success("Commit message copied to clipboard!");
+
+}
