@@ -2,7 +2,7 @@
 
 public class Emoji
 {
-    public string EmojiCharacter { get; set; }
-    public string EmojiName { get; set; }
+    public string Character { get; set; }
+    public string Name { get; set; }
 }
 
