@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSW.FireEmoji.WebApp", "SSW.FireEmoji.WebApp\SSW.FireEmoji.WebApp.csproj", "{65E31B27-5F93-455E-89D9-83B5F8FB2227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSW.FireEmoji.WebApp", "SSW.FireEmoji.WebApp\SSW.FireEmoji.WebApp.csproj", "{65E31B27-5F93-455E-89D9-83B5F8FB2227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSW.FireEmoji.Core", "SSW.FireEmoji.Core\SSW.FireEmoji.Core.csproj", "{99781860-DC7D-47BD-81AE-8F65689C677A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSW.FireMoji.Trainer", "SSW.FireMoji.Trainer\SSW.FireMoji.Trainer.csproj", "{BDCED876-ABCA-4911-B4AA-AC3CFB0E993B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{65E31B27-5F93-455E-89D9-83B5F8FB2227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65E31B27-5F93-455E-89D9-83B5F8FB2227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65E31B27-5F93-455E-89D9-83B5F8FB2227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99781860-DC7D-47BD-81AE-8F65689C677A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99781860-DC7D-47BD-81AE-8F65689C677A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99781860-DC7D-47BD-81AE-8F65689C677A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99781860-DC7D-47BD-81AE-8F65689C677A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCED876-ABCA-4911-B4AA-AC3CFB0E993B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCED876-ABCA-4911-B4AA-AC3CFB0E993B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCED876-ABCA-4911-B4AA-AC3CFB0E993B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCED876-ABCA-4911-B4AA-AC3CFB0E993B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
