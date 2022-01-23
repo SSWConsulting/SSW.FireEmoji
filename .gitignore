@@ -244,3 +244,4 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 /AuctionsPlus.AuctionHub.Web/ngApp/auctionApp/templates.js
+.DS_Store
