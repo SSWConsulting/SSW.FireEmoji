@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\Data\CommitMessages.csv" Link="Data\CommitMessages.csv">
+    <None Include="..\..\Data\CommitMessages.csv" Link="Data\CommitMessages.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

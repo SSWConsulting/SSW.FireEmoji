@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\model\gitmo.mlnet" Link="wwwroot\gitmo.mlnet">
+    <None Include="..\..\model\gitmo.mlnet" Link="wwwroot\gitmo.mlnet">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
