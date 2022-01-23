@@ -1,81 +1,88 @@
 ﻿@page "/"
 @using SSW.FireEmoji.WebApp.Classes
-@using SSW.FireEmoji.WebApp.Shared
 @using SSW.FireEmoji.Core.MachineLearning
 @using SSW.FireEmoji.Core.Models
 
-@inject HttpClient httpClient
+@inject HttpClient _httpClient
 
 <PageTitle>FireEmoji</PageTitle>
 
 <div class="row justify-content-md-center">
     <h1 class="col-sm-10 m-2">FireEmoji</h1>
 
-    @if (!string.IsNullOrEmpty(emojiPrediction))
+    @if (!string.IsNullOrEmpty(_emojiPrediction?.Character))
     {
         <div class="w-100"></div>
-        <div class="col-sm-4">
-            <p class="justify-content-center" Style="font-size: 69px;">@emojiPrediction</p>
-        </div>        
+        <div class="d-flex justify-content-center">
+            <p Style="font-size: 69px;">@_emojiPrediction.Character</p>
+        </div>
     }
     <div class="w-100"></div>
-    <div class="col-6">
-        <Input Placeholder="Your commit message here!"
-                Size="@InputSize.Large"
-                Value="@commitMessage"
-                ValueChanged="@((string s) => FetchGitmoji(s))"/>
-    </div>
+    <MessageInput CommitMessage="@_commitMessage"
+                  CommitMessageChanged="FetchGitmoji"
+                  EmojiPrediction="_emojiPrediction"/>
 </div>
+
 <div class="row justify-content-md-center">
-    @foreach (var item in emojiList)
+    @foreach (var emoji in emojiList)
     {
-        <EmojiCard Emoji="@item" />
+        <EmojiCard Emoji="@emoji"/>
     }
 </div>
 
 @code {
-    private string commitMessage = string.Empty;
-    private GitmoPredictor predictor = new GitmoPredictor();
-    string emojiPrediction = string.Empty;
+    private readonly GitmoPredictor _predictor = new();
+    private string _commitMessage = string.Empty;
+    private Emoji? _emojiPrediction;
+    private static string ModelStreamUri => "gitmo.mlnet";
 
     protected override async Task OnInitializedAsync()
     {
-        var modelStream = await httpClient.GetStreamAsync("gitmo.mlnet");
-        predictor.LoadFromStream(modelStream);
-
+        await LoadModel();
         await base.OnInitializedAsync();
+    }
+
+    private async Task LoadModel()
+    {
+        var modelStream = await _httpClient.GetStreamAsync(ModelStreamUri);
+        _predictor.LoadFromStream(modelStream);
     }
 
     private IList<Emoji> emojiList = new List<Emoji>
     {
-        new Emoji
+        new()
         {
             Character = "✨",
             Name = "sparkles"
         },
-         new Emoji
+        new()
         {
             Character = "🐛",
             Name = "bug"
         },
-        new Emoji
+        new()
         {
             Character = "🔥",
             Name = "fire"
         }
     };
 
+
     private void FetchGitmoji(string userInput)
     {
-        commitMessage = userInput;
-        if (string.IsNullOrEmpty(commitMessage))
+        _commitMessage = userInput;
+        if (string.IsNullOrEmpty(_commitMessage))
+        {
+            _emojiPrediction = null;
             return;
+        }
 
-        var prediction = predictor.Predict(new GitComment { Comment = userInput });
+        var prediction = _predictor.Predict(new GitComment {Comment = userInput});
 
-        emojiPrediction = prediction.Emoji;
-
-        Console.WriteLine(prediction.Emoji + " " + commitMessage);
-        //TODO: Get emojis
+        _emojiPrediction = new Emoji
+        {
+            Character = prediction.Emoji
+        };
     }
+
 }
