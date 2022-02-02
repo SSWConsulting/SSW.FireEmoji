@@ -35,7 +35,7 @@ Currently, there are 3 parts to this project:
  - SSW.FireEmoji.WebApp - Blazor WASM PWA that implements SSW.FireEmoji.Core
  - SSW.FireEmoji.Trainer
 
-# 👨🏻‍💻  F5 Experince
+# 👨🏻‍💻 F5 Experience
 
 ## Prerequisites
  - [Dotnet](https://dotnet.microsoft.com/download)
