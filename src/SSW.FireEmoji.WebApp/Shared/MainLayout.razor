@@ -1,9 +1,15 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page d-flex">
-    <main>
-        <article class="content px-4 g-2">
+<Layout Style="height: 100vh; width: 100vw">
+    <Header Style="background: #333333; height: unset; display: flex; justify-content: flex-start; align-items: center">
+        <img src="fireemojilogo-white.png" style="height: 75%; width: auto" />
+        <Title Level="1" Style="padding: 2rem; color: #fff; margin: 0; font-weight: 300">
+            <span style="font-weight: 700">SSW.</span>FireEmoji
+        </Title>
+    </Header>
+    <Layout>
+        <Content Style="height: 100%; display: flex; flex-direction: column">
             @Body
-        </article>
-    </main>
-</div>
+        </Content>
+    </Layout>
+</Layout>

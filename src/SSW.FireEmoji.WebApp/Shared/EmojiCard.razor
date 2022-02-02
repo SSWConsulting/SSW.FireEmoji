@@ -1,13 +1,14 @@
 ﻿@using SSW.FireEmoji.WebApp.Classes
-<Card class="col-4 m-2 text-center" Title=@($":{Emoji.Name}:") Style="font-size: 69px; width: 500px">
-    <Body>
+<Card Style="@Style"
+      Hoverable>
     @Emoji.Character
-    </Body>
 </Card>
 
-@code {
-
+@code 
+{
     [Parameter]
     public Emoji Emoji { get; set; }
 
+    private string _style = "font-size: 69px; width: 200px; border-radius: 9px;";
+    private string Style => _style + EmojiHelper.GetCssColor(Emoji);
 }
