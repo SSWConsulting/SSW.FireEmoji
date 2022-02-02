@@ -7,27 +7,25 @@
 
 <PageTitle>FireEmoji</PageTitle>
 
-<div class="row justify-content-md-center">
-    <h1 class="col-sm-10 m-2">FireEmoji</h1>
 
-    @if (!string.IsNullOrEmpty(_emojiPrediction?.Character))
-    {
-        <div class="w-100"></div>
-        <div class="d-flex justify-content-center">
-            <p Style="font-size: 69px;">@_emojiPrediction.Character</p>
-        </div>
-    }
-    <div class="w-100"></div>
+
     <MessageInput CommitMessage="@_commitMessage"
                   CommitMessageChanged="FetchGitmoji"
                   EmojiPrediction="_emojiPrediction"/>
-</div>
 
-<div class="row justify-content-md-center">
-    @foreach (var emoji in emojiList)
-    {
-        <EmojiCard Emoji="@emoji"/>
-    }
+<div style="display: flex; justify-content: space-between; flex-direction: column; flex-grow: 1; flex-shrink: 0; flex-basis: auto;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 1rem; width: 100%">
+        @foreach (var emoji in emojiList)
+        {
+            <div style="padding: 1rem">
+                <EmojiCard Emoji="@emoji"/>
+            </div>
+        }
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center; background: #dddddd">
+        <Text>We 💖 Open Source. Powered by GitHub and gitmoji</Text>
+    </div>
 </div>
 
 @code {
