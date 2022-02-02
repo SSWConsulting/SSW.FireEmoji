@@ -1,6 +1,11 @@
 ﻿using Microsoft.ML;
 using SSW.FireEmoji.Core.MachineLearning;
 using SSW.FireEmoji.Core.Models;
+using System.Text;
+
+// Adding support for emojis 🚀
+Console.OutputEncoding = Encoding.UTF8;
+Console.Write("\xfeff"); // bom = byte order mark
 
 string modelName = "gitmo.mlnet";
 
