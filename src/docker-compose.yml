@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  ssw.fireemoji.webapp:
+    image: ${DOCKER_REGISTRY-}sswfireemojiwebapp
+    build:
+      context: .
+      dockerfile: SSW.FireEmoji.WebApp/Dockerfile
+
+  ssw.fireemoji.api:
+    image: ${DOCKER_REGISTRY-}sswfireemojiapi
+    build:
+      context: .
+      dockerfile: SSW.FireEmoji.Api/Dockerfile
+
