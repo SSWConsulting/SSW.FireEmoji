@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>b1380941-9a2e-4bc2-b2ef-ff6e1a1b2cd2</ProjectGuid>
+    <ProjectGuid>7e0d92c3-928b-48eb-a28c-201a0a1d449a</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>ssw.fireemoji.webapp</DockerServiceName>
