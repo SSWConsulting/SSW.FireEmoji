@@ -7,6 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
+COPY ["../model/gitmo.mlnet", "/model/gitmo.mlnet"]
 COPY ["SSW.FireEmoji.WebApp/SSW.FireEmoji.WebApp.csproj", "SSW.FireEmoji.WebApp/"]
 COPY ["SSW.FireEmoji.Core/SSW.FireEmoji.Core.csproj", "SSW.FireEmoji.Core/"]
 RUN dotnet restore "SSW.FireEmoji.WebApp/SSW.FireEmoji.WebApp.csproj"
