@@ -2,7 +2,12 @@
 
 namespace SSW.FireEmoji.Core.Models;
 
-public class GitmojiPrediction
+public interface IPrediction
+{
+    float[] Score { get; }
+}
+
+public class GitmojiPrediction : IPrediction
 {
     [ColumnName("PredictedLabel")]
     public string Emoji { get; set; }
