@@ -1,0 +1,65 @@
+@using SSW.FireEmoji.WebApp.Classes
+@using Append.Blazor.Clipboard
+@using Color = System.Drawing.Color
+
+@inject IClipboardService _clipboardService
+@inject MessageService _message
+
+<div style="@Style()">
+    <div style="width: 100%; padding: 3.5rem; display: flex; justify-content: center; align-items: center;">
+        <div style="width: 128px; max-width: 128px; height: 128px; max-height: 128px; display: flex; justify-content: center; align-items: center;">
+            @if (EmojiPrediction is not null)
+            {
+                <div style="margin: 0; padding: 0; font-size: 96px;">
+                    @EmojiPrediction.Character
+                </div>
+            }
+        </div>
+        <div style="margin: 1.25rem 0; width: 100%; display: flex; flex-direction: column">
+            <Text Style="color: #fff">@(EmojiPrediction?.Name ?? ":wip:")</Text>
+            <Input Placeholder="Your commit message here!"
+                   Size="@InputSize.Large"
+                   Value="@CommitMessage"
+                   ValueChanged="@CommitMessageChanged">
+                <Suffix>
+                    <Button Style="border: none" OnClick="CopyCommitMessage" Icon="copy"/>
+                </Suffix>
+            </Input>
+            <div style="width: 100%; display: flex; justify-content: flex-end; align-items: center;">
+                <Text Style="color: #fff">
+                    <a href="https://github.com/SSWConsulting/SSW.FireEmoji/issues/new?assignees=&labels=Type%3A+Emoji+Suggestion&template=5-emoji-suggestion.md&title=%F0%9F%92%A1+">Suggest an emoji?</a>
+                </Text>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public string? CommitMessage { get; set; }
+
+    [Parameter]
+    public Emoji? EmojiPrediction { get; set; }
+
+    [Parameter]
+    public EventCallback<string> CommitMessageChanged { get; set; }
+
+    private string FullCommitMessage => $"{EmojiPrediction?.Character} {CommitMessage}";
+
+
+    private async Task CopyCommitMessage()
+    {
+        await _clipboardService.CopyTextToClipboardAsync(FullCommitMessage);
+        await CopySuccess();
+    }
+
+    private async Task CopySuccess() =>
+        await _message.Success("Commit message copied to clipboard!");
+
+
+
+    private string Style() => EmojiHelper.GetCssColor(EmojiPrediction) +
+                              ";flex-shrink: 1;flex-grow: 0;flex-basis: auto;";
+
+}

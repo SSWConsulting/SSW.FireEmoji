@@ -692,7 +692,7 @@ R,emove platform specific gitmojis
 💥, Fix development environment
 📝, Add new post
 🎨, Add compress layout for postingan.json
-🐛 fix bug - remove error in script
+🐛, fix bug - remove error in script
 📝, update README.md - add a screenshot of project
 📝, update REAME.md after implement Vercel for continuous integration
 🎉, First commit
@@ -817,3 +817,4 @@ R,emove platform specific gitmojis
 🛂, fix login
 🛂, fix authentication
 🛂, add authentication
+♻️, Moved project one folder higher

@@ -1,0 +1,86 @@
+﻿@page "/"
+@using SSW.FireEmoji.WebApp.Classes
+@using SSW.FireEmoji.Core.MachineLearning
+@using SSW.FireEmoji.Core.Models
+
+@inject HttpClient _httpClient
+
+<PageTitle>FireEmoji</PageTitle>
+
+
+
+    <MessageInput CommitMessage="@_commitMessage"
+                  CommitMessageChanged="FetchGitmoji"
+                  EmojiPrediction="_emojiPrediction"/>
+
+<div style="display: flex; justify-content: space-between; flex-direction: column; flex-grow: 1; flex-shrink: 0; flex-basis: auto;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 1rem; width: 100%">
+        @foreach (var emoji in emojiList)
+        {
+            <div style="padding: 1rem">
+                <EmojiCard Emoji="@emoji"/>
+            </div>
+        }
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center; background: #dddddd">
+        <Text>We 💖 Open Source. Powered by GitHub and gitmoji</Text>
+    </div>
+</div>
+
+@code {
+    private readonly GitmoPredictor _predictor = new();
+    private string _commitMessage = string.Empty;
+    private Emoji? _emojiPrediction;
+    private static string ModelStreamUri => "gitmo.mlnet";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModel();
+        await base.OnInitializedAsync();
+    }
+
+    private async Task LoadModel()
+    {
+        var modelStream = await _httpClient.GetStreamAsync(ModelStreamUri);
+        _predictor.LoadFromStream(modelStream);
+    }
+
+    private IList<Emoji> emojiList = new List<Emoji>
+    {
+        new()
+        {
+            Character = "✨",
+            Name = "sparkles"
+        },
+        new()
+        {
+            Character = "🐛",
+            Name = "bug"
+        },
+        new()
+        {
+            Character = "🔥",
+            Name = "fire"
+        }
+    };
+
+
+    private void FetchGitmoji(string userInput)
+    {
+        _commitMessage = userInput;
+        if (string.IsNullOrEmpty(_commitMessage))
+        {
+            _emojiPrediction = null;
+            return;
+        }
+
+        var prediction = _predictor.Predict(new GitComment {Comment = userInput});
+
+        _emojiPrediction = new Emoji
+        {
+            Character = prediction.Emoji
+        };
+    }
+
+}
