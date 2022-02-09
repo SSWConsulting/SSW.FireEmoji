@@ -50,6 +50,7 @@
         _commitMessage = userInput;
         if (string.IsNullOrEmpty(_commitMessage))
         {
+            _emojiList.Clear();
             _emojiPrediction = null;
             return;
         }
@@ -60,6 +61,7 @@
 
         _emojiPrediction = _emojiList.FirstOrDefault();
         _emojiList.RemoveAt(0);
+        StateHasChanged();
     }
 
     private void UpdatePredictionList(Dictionary<string, float> predictionList)
