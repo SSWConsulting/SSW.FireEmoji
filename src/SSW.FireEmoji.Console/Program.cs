@@ -6,19 +6,13 @@ using Cocona;
 Console.OutputEncoding = Encoding.UTF8;
 Console.Write("\xfeff"); // bom = byte order mark
 
-string ModelPath = "gitmo.mlnet";
+CoconaLiteApp.Run(Predict);
 
-GitmoPredictor gitmoPredictor = new GitmoPredictor();
-
-CoconaLiteApp.Run((string commit, string? model) =>
+static void Predict(string commit, [Option('p', Description = "Path to ML.NET model")] string modelPath = "gitmo.mlnet")
 {
-    if (model != string.Empty)
-    {
-        ModelPath = model;
-    }
+    GitmoPredictor predictor = new();
+    predictor.LoadFromFilePath(modelPath);
 
-    gitmoPredictor.LoadFromFilePath(ModelPath);
-    var Result = gitmoPredictor.Predict(new GitComment() { Comment = commit });
-
-    Console.WriteLine(Result.Emoji.Trim());
-});
+    var result = predictor.Predict(new GitComment { Comment = commit });
+    Console.WriteLine(result.Emoji.Trim());
+}
