@@ -25,9 +25,6 @@ jobs:
           echo "fireemoji.io" > CNAME
       - name: Add .nojekyll file
         run: touch release/wwwroot/.nojekyll
-        # Changes the base-tag in index.html from '/' to 'SSW.FireEmoji' to match GitHub Pages repository subdirectory
-      - name: Change base-tag in index.html from / to LukeParkerDev
-        run: sed -i 's/<base href="\/" \/>/<base href="\/SSW.FireEmoji\/" \/>/g' release/wwwroot/index.html
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
