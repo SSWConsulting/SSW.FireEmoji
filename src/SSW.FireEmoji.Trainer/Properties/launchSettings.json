@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SSW.FireEmoji.Trainer": {
+      "commandName": "Project",
+      "commandLineArgs": "train -d ../../../../../Data/CommitMessages.csv -o ../../../../../Model/gitmo.mlnet -t 90"
+    }
+  }
+}
