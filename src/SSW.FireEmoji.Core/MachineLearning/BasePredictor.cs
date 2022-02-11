@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.ML;
 using Microsoft.ML;
+using SSW.FireEmoji.Core.Models;
 
 namespace SSW.FireEmoji.Core.MachineLearning;
 
@@ -14,7 +15,7 @@ public interface IPredictor
 
 public interface IPredictor<TInput, TOutput> : IPredictor
     where TInput : class
-    where TOutput : class, new()
+    where TOutput : class, IPrediction, new()
 {
     void SetPredictionPool(PredictionEnginePool<TInput, TOutput> predictionPool);
 
@@ -24,7 +25,7 @@ public interface IPredictor<TInput, TOutput> : IPredictor
 
 public class BasePredictor<TInput, TOutput> : IPredictor<TInput, TOutput>
     where TInput : class
-    where TOutput : class, new()
+    where TOutput : class, IPrediction, new()
 {
     private readonly MLContext _mlContext;
 
@@ -97,7 +98,7 @@ public class BasePredictor<TInput, TOutput> : IPredictor<TInput, TOutput>
         Dictionary<string, float> result = new();
         foreach (string category in categories)
         {
-            result.Add(category, num++);
+            result.Add(category, prediction.Score[num++]);
         }
 
         return result;
