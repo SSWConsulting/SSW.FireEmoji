@@ -59,7 +59,9 @@
     },
     "Console app": {
       "Projects": {
-        "SSW.FireEmoji.Console": {}
+        "SSW.FireEmoji.Console": {
+          "CommandLineArguments": "--commit \"Added new feature to the console app\" -p ../../../../../Model/gitmo.mlnet"
+        }
       }
     },
     "Api": {
@@ -80,7 +82,7 @@
       "Projects": {
         "SSW.FireEmoji.Trainer": {
           /* In Visual Studio, we need to go 3 folders up to get to project level and 2 folders up to git root */
-          "CommandLineArguments": "train -d ../../../../../Data/CommitMessages.csv",
+          "CommandLineArguments": "predict -m \"Added new feature to the console app\" -p ../../../../../Model/gitmo.mlnet",
           "WorkingDirectory": ""
         }
       }
