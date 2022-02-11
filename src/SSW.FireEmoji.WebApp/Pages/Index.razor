@@ -28,7 +28,7 @@
 @code {
     private string _commitMessage = string.Empty;
     private Emoji? _emojiPrediction;
-    private List<Emoji> _emojiList = new List<Emoji>();
+    private List<Emoji> _emojiList = new ();
 
     private readonly GitmoPredictor _predictor = new();
     private static string ModelStreamUri => "gitmo.mlnet";
