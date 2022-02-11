@@ -14,6 +14,9 @@ public static class EmojiHelper
         },
         {
             "🐛", Color.Chartreuse
+        },
+        {
+            "💄", Color.Purple
         }
     };
 
