@@ -17,7 +17,7 @@
       "url": "fireemojilogo-white.png"
     },
     {
-      "hash": "sha256-fNgqvUvv7r8STd4xv0p50QeBEJpmRQi\/zAzLGBSQ+bE=",
+      "hash": "sha256-DUsn6O94Tbc1csRr3dEN6xoOVvq3Tt0wRdDVk\/18yNc=",
       "url": "gitmo.mlnet"
     },
     {
@@ -69,7 +69,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-zwXFLJ9NiDLy4y0jYzIkK6aIPLRrpuippcW+X0D0oBU=",
+      "hash": "sha256-odnkX+AnGEGDeQjdeHldl50DhbyjsqpzP3VG2oLJ7oQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -257,11 +257,11 @@
       "url": "_framework\/Protobuf.Text.dll"
     },
     {
-      "hash": "sha256-PVwZuMPHz0oCfggx9z9nrKbH12bDj26k3vkTN5F8I4E=",
+      "hash": "sha256-i4g5ex7aH6B\/5oWhzAN+hDLY9hYlICiS6kFNUopFHRg=",
       "url": "_framework\/SSW.FireEmoji.Core.dll"
     },
     {
-      "hash": "sha256-yNWoB2oitRIraz\/vXQPH7yo5MHrvQDoYaxQexSV3Ho0=",
+      "hash": "sha256-4XKKJ6pMnwt0zC09xXM8l3vZW2aFDFfZv4iBwKUAtEs=",
       "url": "_framework\/SSW.FireEmoji.WebApp.dll"
     },
     {
@@ -461,7 +461,7 @@
       "url": "_framework\/System.Runtime.CompilerServices.Unsafe.dll"
     },
     {
-      "hash": "sha256-JcjIPpGf\/4NKiP4n3rzbgnrvyjmYwGXph+hys5to+iM=",
+      "hash": "sha256-5F+JIqDqO007znhufnX5nDX5qejyYlmiySuIv9WSQAI=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -1861,5 +1861,5 @@
       "url": "_content\/Append.Blazor.Clipboard\/scripts.js"
     }
   ],
-  "version": "YyjqlBHI"
+  "version": "PoGJ2+1K"
 };
