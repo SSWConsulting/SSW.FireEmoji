@@ -1,0 +1,17 @@
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-rbhmi5xdwt] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-rbhmi5xdwt] {
+    flex: 1;
+}
+
+
+@media (min-width: 641px) {
+    .page[b-rbhmi5xdwt] {
+        flex-direction: row;
+    }
+}
