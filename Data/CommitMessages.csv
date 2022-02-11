@@ -841,3 +841,8 @@ R,emove platform specific gitmojis
 🚀, New release for console and VS Code extension
 📝, Added images for docs
 📝, Added images for readme
+🔥, Removed ml model to avoid case sensitive issues
+🚀, Deploy new model
+🚀, Deployed new ML model
+🚀, Deployed new version
+🚀, Deployed updated ML
