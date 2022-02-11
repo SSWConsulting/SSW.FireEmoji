@@ -18,7 +18,13 @@ There are almost 70 different GitMojis, so sometimes its hard to pick the best o
 
 TODO: get it working on Macs + linux
 
+### Install locally
 
+Install using `code --install-extension .\ssw-fireemoji-vscode-<version-number-here>.vsix`
+
+### package
+
+To package this locally `vsce package`
 
 ## Extension Settings
 
