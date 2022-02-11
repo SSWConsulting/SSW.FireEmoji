@@ -9,6 +9,10 @@
       "url": "favicon.ico"
     },
     {
+      "hash": "sha256-ecAJDyqub3syV9ToxxYKw3CZS7KUkhemXmDVqwmG8dw=",
+      "url": "fireemojilogo-black.png"
+    },
+    {
       "hash": "sha256-pXipN8WK91o0aBonVz0H8pRsSfGmhC9I+u1PEOQYzRY=",
       "url": "fireemojilogo-white.png"
     },
@@ -1857,5 +1861,5 @@
       "url": "_content\/Append.Blazor.Clipboard\/scripts.js"
     }
   ],
-  "version": "cC2lzrU+"
+  "version": "YyjqlBHI"
 };
