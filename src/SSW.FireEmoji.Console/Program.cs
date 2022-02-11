@@ -1,8 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using SSW.FireEmoji.Core.MachineLearning;
+﻿using SSW.FireEmoji.Core.MachineLearning;
 using SSW.FireEmoji.Core.Models;
 using System.Text;
+using Cocona;
 
 Console.OutputEncoding = Encoding.UTF8;
 Console.Write("\xfeff"); // bom = byte order mark
@@ -11,15 +10,15 @@ string ModelPath = "gitmo.mlnet";
 
 GitmoPredictor gitmoPredictor = new GitmoPredictor();
 
-gitmoPredictor.LoadFromFilePath(ModelPath);
-
-var commitMsg = args.AsQueryable().FirstOrDefault();
-
-if (commitMsg == null)
+CoconaLiteApp.Run((string commit, string? model) =>
 {
-    throw new Exception("No Message parsed");
-}
+    if (model != string.Empty)
+    {
+        ModelPath = model;
+    }
 
-var res = gitmoPredictor.Predict(new GitComment() { Comment = commitMsg });
+    gitmoPredictor.LoadFromFilePath(ModelPath);
+    var Result = gitmoPredictor.Predict(new GitComment() { Comment = commit });
 
-Console.WriteLine(res.Emoji.Trim());
+    Console.WriteLine(Result.Emoji.Trim());
+});
