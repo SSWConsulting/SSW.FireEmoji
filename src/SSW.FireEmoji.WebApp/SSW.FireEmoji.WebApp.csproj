@@ -7,11 +7,12 @@
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\model\gitmo.mlnet" Link="wwwroot\gitmo.mlnet">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+
+
+  <Target Name="CopyFireEmojiModel" AfterTargets="Build">
+    <Message Text="Copy FireEmoji gitmo ML model" Importance="normal" />
+    <Copy SourceFiles="..\..\Model\gitmo.mlnet" DestinationFolder="wwwroot" ContinueOnError="true" />
+  </Target>
 
   <ItemGroup>
     <PackageReference Include="AntDesign" Version="0.10.3.1" />

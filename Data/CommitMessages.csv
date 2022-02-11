@@ -819,3 +819,11 @@ R,emove platform specific gitmojis
 🛂, add authentication
 ♻️, Moved project one folder higher
 🚧, Updating form styling (WIP)
+🔥, Temporarily removed model folder
+✅, Added unit tests
+✅, Added integration tests
+✅, Fixed failed unit test
+✅, Fixed failed integration test
+✅, Fixed unit tests
+✅, Fixed UI tests
+✅, Added unit tests for a feature
