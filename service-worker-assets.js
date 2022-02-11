@@ -25,7 +25,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-3rImGXU8xaqxF\/9MD7gXF9wCI3gTtEUOnRiBPM8xqzc=",
+      "hash": "sha256-76sGp1TsdbJqPYodRO6T7sV0Nczuh0vMcPsw3PdvhPs=",
       "url": "index.html"
     },
     {
@@ -65,7 +65,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-oJh+BSBP7A05WpMEPgonM2DT92XZcw4nD7\/y+eRdfy0=",
+      "hash": "sha256-zwXFLJ9NiDLy4y0jYzIkK6aIPLRrpuippcW+X0D0oBU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -257,7 +257,7 @@
       "url": "_framework\/SSW.FireEmoji.Core.dll"
     },
     {
-      "hash": "sha256-vgc4wwo+Cz4IjnbFfHGbjy8eVaScH36xk2HMdu4QyTI=",
+      "hash": "sha256-yNWoB2oitRIraz\/vXQPH7yo5MHrvQDoYaxQexSV3Ho0=",
       "url": "_framework\/SSW.FireEmoji.WebApp.dll"
     },
     {
@@ -1857,5 +1857,5 @@
       "url": "_content\/Append.Blazor.Clipboard\/scripts.js"
     }
   ],
-  "version": "xksA3Itz"
+  "version": "cC2lzrU+"
 };
