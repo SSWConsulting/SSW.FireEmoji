@@ -2,7 +2,7 @@
   "name": "ssw-fireemoji-vscode",
   "displayName": "SSW.FireEmoji",
   "description": "An ML powered Gitmoji tool for commit messages!",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "icon": "images/fireemojilogo-red.png",
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
   "activationEvents": [
     "onCommand:extension.ssw-fireemoji"
   ],
-
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -41,9 +40,7 @@
     },
     "configuration": {
       "title": "SSW.FireEmoji",
-      "properties": {
-
-      }
+      "properties": {}
     }
   },
   "scripts": {

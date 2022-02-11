@@ -22,15 +22,16 @@ TODO: get it working on Macs + linux
 
 Install using `code --install-extension .\ssw-fireemoji-vscode-<version-number-here>.vsix`
 
-### package
+### Package VS Extension
 
-To package this locally `vsce package`
+1. Run `npm i -g vsce` if `vsce` is not yet installed
+2. Run `vsce package` 0.1.0 --pre-release
 
 ## Extension Settings
 
 There are currently no extension settings
 
-TODO: Add model path
+**TODO:** Add model path
 
 
 ## Release Notes
@@ -39,3 +40,8 @@ TODO: Add model path
 ### 0.0.1
 
 - Initial Alpha of Fire Emoji!!
+
+### 0.1.0
+
+- Fixed bugs with running `gitmo.mlnet`
+- Added logs

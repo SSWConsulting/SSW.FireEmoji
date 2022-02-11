@@ -3,7 +3,6 @@ import * as vscode from "vscode";
 import { GitExtension, Repository } from "./api/git";
 
 import FireEmoji from "./ssw/fireEmoji";
-import Gitmoji from "./gitmoji/gitmoji";
 
 export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand(
@@ -33,16 +32,12 @@ export function activate(context: vscode.ExtensionContext) {
     context.subscriptions.push(disposable);
 }
 
-// TODO: Add language support for gitmoji using weblate to get the community involved?!
-function getEnvLanguage() {
-    const language = vscode.env.language;
-    return language;
-}
-
 async function prefixCommit(repository: Repository) {
-    const emoji = await (await FireEmoji(repository.inputBox.value)).trim();
+    vscode.window.showInformationMessage('Predicting emoji for commit: ' + repository.inputBox.value);
+    const emoji = (await FireEmoji(repository.inputBox.value)).trim();
     repository.inputBox.value = `${emoji} ${repository.inputBox.value}`;
 }
+
 function getGitExtension() {
     const vscodeGit =
         vscode.extensions.getExtension<GitExtension>("vscode.git");

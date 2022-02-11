@@ -8,17 +8,10 @@ Console.Write("\xfeff"); // bom = byte order mark
 
 string ModelPath = "gitmo.mlnet";
 
-GitmoPredictor gitmoPredictor = new GitmoPredictor();
-
-CoconaLiteApp.Run((string commit, string? model) =>
+static void Predict(string commit, [Option('p', Description = "Path to ML.NET model")] string model = "gitmo.mlnet")
 {
-    if (model != string.Empty)
-    {
-        ModelPath = model;
-    }
-
-    gitmoPredictor.LoadFromFilePath(ModelPath);
-    var Result = gitmoPredictor.Predict(new GitComment() { Comment = commit });
+    GitmoPredictor predictor = new();
+    predictor.LoadFromFilePath(model);
 
     Console.WriteLine(Result.Emoji.Trim());
 });
