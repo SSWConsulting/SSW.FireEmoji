@@ -1,0 +1,89 @@
+/*
+    This is a configuration file for the SwitchStartupProject Visual Studio Extension
+    See https://heptapod.host/thirteen/switchstartupproject/blob/branch/current/Configuration.md
+*/
+{
+  /*  Configuration File Version  */
+  "Version": 3,
+
+  /*  Create an item in the dropdown list for each project in the solution?  */
+  "ListAllProjects": false,
+
+  /*
+        Dictionary of named configurations with one or multiple startup projects
+        and optional parameters like command line arguments and working directory.
+        Example:
+
+        "MultiProjectConfigurations": {
+          "A + B (Ext)": {
+            "Projects": {
+              "MyProjectA": {},
+              "MyProjectB": {
+                "CommandLineArguments": "1234",
+                "WorkingDirectory": "%USERPROFILE%\\test",
+                "StartExternalProgram": "c:\\myprogram.exe"
+              }
+            }
+          },
+          "A + B": {
+            "Projects": {
+              "MyProjectA": {},
+              "MyProjectB": {
+                "CommandLineArguments": "",
+                "WorkingDirectory": "",
+                "StartProject": true
+              }
+            }
+          },
+          "D (Debug x86)": {
+            "Projects": {
+              "MyProjectD": {}
+            },
+            "SolutionConfiguration": "Debug",
+            "SolutionPlatform": "x86",
+          },
+          "D (Release x64)": {
+            "Projects": {
+              "MyProjectD": {}
+            },
+            "SolutionConfiguration": "Release",
+            "SolutionPlatform": "x64",
+          }
+        }
+    */
+  "MultiProjectConfigurations": {
+    "Blazor app": {
+      "Projects": {
+        "SSW.FireEmoji.WebApp": {}
+      }
+    },
+    "Console app": {
+      "Projects": {
+        "SSW.FireEmoji.Console": {}
+      }
+    },
+    "Api": {
+      "Projects": {
+        "SSW.FireEmoji.Api": {}
+      }
+    },
+    "SSW.FireEmoji.Trainer (train)": {
+      "Projects": {
+        "SSW.FireEmoji.Trainer": {
+          /* In Visual Studio, we need to go 3 folders up to get to project level and 2 folders up to git root */
+          "CommandLineArguments": "train -d ../../../../../Data/CommitMessages.csv -o ../../../../../Model/gitmo.mlnet -t 90",
+          "WorkingDirectory": ""
+        }
+      }
+    },
+    "SSW.FireEmoji.Trainer (predict)": {
+      "Projects": {
+        "SSW.FireEmoji.Trainer": {
+          /* In Visual Studio, we need to go 3 folders up to get to project level and 2 folders up to git root */
+          "CommandLineArguments": "train -d ../../../../../Data/CommitMessages.csv",
+          "WorkingDirectory": ""
+        }
+      }
+    }
+  }
+}
