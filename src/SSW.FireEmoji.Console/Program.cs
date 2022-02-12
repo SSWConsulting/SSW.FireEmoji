@@ -8,11 +8,11 @@ Console.Write("\xfeff"); // bom = byte order mark
 
 CoconaLiteApp.Run(Predict);
 
-static void Predict(string commit, [Option('p', Description = "Path to ML.NET model")] string modelPath = "gitmo.mlnet")
+static void Predict(string commit, [Option('p', Description = "Path to ML.NET model")] string model = "gitmo.mlnet")
 {
     GitmoPredictor predictor = new();
-    predictor.LoadFromFilePath(modelPath);
+    predictor.LoadFromFilePath(model);
 
     var result = predictor.Predict(new GitComment { Comment = commit });
     Console.WriteLine(result.Emoji.Trim());
-}
+};

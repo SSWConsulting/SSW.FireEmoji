@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SSW.FireEmoji.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "--commit \"Added new feature to the console app\" -p ../../../../../Model/gitmo.mlnet"
+    }
+  }
+}

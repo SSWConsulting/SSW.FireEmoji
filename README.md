@@ -28,6 +28,15 @@ There are almost 70 different GitMojis, so sometimes its hard to pick the best o
 
 Automate the selection of GitMojis using AI.
 
+# :octocat: Install VS Code extension
+
+In VS Code:
+
+1. Go to Extensions
+2. Under `...` click `Install from VSIX`
+3. Select `releases/latest/vscode/ssw-fireemoji-vscode-preview.vsix`
+
+![Install VS Code VSIX via VS Code IDE](images/install-vscode-vsix-manually-ide.png)
 
 # 🏛 Architecture
 Currently, there are 3 parts to this project:
