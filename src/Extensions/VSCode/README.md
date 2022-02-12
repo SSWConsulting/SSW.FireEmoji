@@ -12,6 +12,24 @@ There are almost 70 different GitMojis, so sometimes its hard to pick the best o
 
 ![Gif Example](https://user-images.githubusercontent.com/57518417/152156252-e857b6d1-faf1-4e70-b3cf-65db16fb78f0.gif)
 
+
+## Install VS Code extension
+
+In VS Code IDE:
+
+1. Go to Extensions
+2. Under `...` click `Install from VSIX`
+3. Select `releases/latest/vscode/ssw-fireemoji-vscode-preview.vsix`
+4. Reload extension
+
+![Install VS Code VSIX via VS Code IDE](https://raw.githubusercontent.com/SSWConsulting/SSW.FireEmoji/main/images/install-vscode.gif)
+
+## Usage
+
+Go to `Source Control` tab, enter your message and press the 🔥 icon. :)
+
+![Install VS Code VSIX via VS Code IDE](https://raw.githubusercontent.com/SSWConsulting/SSW.FireEmoji/main/images/use-vscode.gif)
+
 ## Requirements
 
 - Currently this will only work with Windows computers due to running an .exe under the hood. 
