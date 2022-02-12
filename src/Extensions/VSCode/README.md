@@ -10,7 +10,19 @@ There are almost 70 different GitMojis, so sometimes its hard to pick the best o
 
 - Automate the selection of GitMojis using AI.
 
-![Gif Example](https://user-images.githubusercontent.com/57518417/152156252-e857b6d1-faf1-4e70-b3cf-65db16fb78f0.gif)
+![Install VS Code VSIX via VS Code IDE](https://raw.githubusercontent.com/SSWConsulting/SSW.FireEmoji/main/images/use-vscode.gif)
+
+
+## Install VS Code extension
+
+In VS Code IDE:
+
+1. Go to Extensions
+2. Under `...` click `Install from VSIX`
+3. Select `releases/latest/vscode/ssw-fireemoji-vscode-preview.vsix`
+4. Reload extension
+
+![Install VS Code VSIX via VS Code IDE](https://raw.githubusercontent.com/SSWConsulting/SSW.FireEmoji/main/images/install-vscode.gif)
 
 ## Requirements
 
@@ -45,3 +57,8 @@ There are currently no extension settings
 
 - Fixed bugs with running `gitmo.mlnet`
 - Added logs
+
+### 0.1.1
+
+- Updated model
+- Updated readme
