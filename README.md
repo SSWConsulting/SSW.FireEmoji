@@ -5,6 +5,8 @@
 
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.dev)
 ![.NET Build + Test](https://github.com/SSWConsulting/SSW.FireEmoji/actions/workflows/dotnet.yml/badge.svg)
+ 
+ [fireemoji.io](fireemoji.io)
 
 <!-- TODO: Add link to deployed site -->
 
