@@ -8,6 +8,8 @@
 
 <!-- TODO: Add link to deployed site -->
 
+![Stats](https://repobeats.axiom.co/api/embed/1b61bc02b3fab87407aadaa0e892e129f7dbf5ba.svg)
+ 
 </div>
 
 <br>
