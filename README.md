@@ -1,13 +1,19 @@
 <div align="center">
-
+<a href="https://fireemoji.io">
+ 
 ![FireEmoji Logo](https://user-images.githubusercontent.com/38869720/150602490-4beb2988-712d-472f-a916-c3eaad6d0279.png)
-
+ 
+</a>
 
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.dev)
 ![.NET Build + Test](https://github.com/SSWConsulting/SSW.FireEmoji/actions/workflows/dotnet.yml/badge.svg)
+ 
+[fireemoji.io](https://fireemoji.io)
 
 <!-- TODO: Add link to deployed site -->
 
+![Stats](https://repobeats.axiom.co/api/embed/1b61bc02b3fab87407aadaa0e892e129f7dbf5ba.svg)
+ 
 </div>
 
 <br>
