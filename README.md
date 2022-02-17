@@ -40,7 +40,7 @@ In VS Code:
 
 1. Go to Extensions
 2. Under `...` click `Install from VSIX`
-3. Select `releases/latest/vscode/ssw-fireemoji-vscode-preview.vsix`
+3. Download and select [releases/latest/vscode/ssw-fireemoji-vscode-preview.vsix](https://github.com/SSWConsulting/SSW.FireEmoji/raw/main/releases/latest/vscode/ssw-fireemoji-vscode-preview.vsix)
 4. Reload extension
 
 ![Install VS Code VSIX via VS Code IDE](images/install-vscode.gif)
